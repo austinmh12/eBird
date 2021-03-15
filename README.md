@@ -23,9 +23,9 @@ ebird.py -c path/to/coordlist.csv -y 2015
 # Coordinate Lists
 The coodinate list is a CSV file where each row is a pair of latitudes and longitudes. Coordinates in the list are the upper-right latitude, longitude, then the bottom-left latitude, longitude. These are labeled as Y2, X1, Y1, X2
 
-![coord region](https://github.com/austinmh12/eBird/raw/master/rsc/EbirdHotspots.png)
+![coord region](https://raw.githubusercontent.com/austinmh12/eBird/master/rsc/EbirdHotspots.png)
 
 ## Obtaining Coordinates
 The easiest way to obtain the coordinates is to use [Google Maps](https://www.google.com/maps). By going to the area that you want to get the data for and right-clicking, you can copy the coordinates in the LAT, LONG format that the coordinate list requires.
 
-![coords from google](https://github.com/austinmh12/eBird/raw/master//rsc/GoogleMaps.png)
+![coords from google](https://raw.githubusercontent.com/austinmh12/eBird/master/rsc/GoogleMaps.png)
