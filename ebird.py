@@ -39,7 +39,7 @@ def main(coord_file, year):
 		bird_data_rows.extend(bird_data)
 		missed_hotspots_coords.pop()
 	df = pd.DataFrame(bird_data_rows, columns=['Hotspot_Name', 'Bird_Name'])
-	df.to_csv(f'results/bird_data-{dt.now().strftime("%Y%m%d")}.csv', index=False)
+	df.to_csv(f'results/bird_data-{dt.now().strftime("%Y%m%d%H%M%S")}.csv', index=False)
 
 
 def get_hotspots(x1, y1, x2, y2):
