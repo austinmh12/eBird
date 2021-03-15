@@ -1,7 +1,7 @@
 # eBird
 ![license](https://img.shields.io/badge/license-GPL%203.0-brightgreen)
 
-eBird is a tool to get bird names from hotspots in a coordinate region from [eBird's website](https://ebird.org/home). The tool parses through a list of coordinate regions and exports the data to a CSV file with the hotspot name and bird names.
+eBird is a tool to get bird names from hotspots in coordinate regions from [eBird's website](https://ebird.org/home). The tool parses through a list of coordinate regions and exports the data to a CSV file with the hotspot name and bird names.
 
 # Requirements
 ebird requires pandas, BeautifulSoup, and requests to retrieve and parse the data from eBird.org
