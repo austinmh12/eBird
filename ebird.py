@@ -22,7 +22,6 @@ def main(coord_file, year):
 		if missed_hotspots_coords_twice:
 			for y2, x1, y1, x2 in missed_hotspots_coords_twice:
 				print(f'Couldn\'t get hotspots for {",".join([str(y2),str(x1),str(y1),str(x2)])}')
-	print(bird_data_rows)
 	df = pd.DataFrame(bird_data_rows, columns=['Hotspot_Name', 'Bird_Name'])
 	df.to_csv(f'results/bird_data-{dt.now().strftime("%Y%m%d%H%M%S")}.csv', index=False)
 
